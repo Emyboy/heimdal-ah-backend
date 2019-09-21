@@ -1,0 +1,19 @@
+{
+  "name": "app.json",
+  "scripts": {
+  },
+  "env": {
+    "NODE_ENV": {
+      "required": true
+    },
+    "PROD_DB_URL": "PROD_DB_URL=postgres://pvmevxgv:WcYaHniAjorD2cdQeJkP3iuDjpW7BXNK@elmer.db.elephantsql.com:5432/pvmevxgv"
+  },
+  "formation": {
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+
+  ]
+}
